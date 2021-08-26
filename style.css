@@ -1,0 +1,122 @@
+body{
+  padding: 0;
+}
+
+.navbar-collapse .container-fluid {
+  padding: 2rem 2.5rem;
+  border-bottom: 1px solid #55595c;
+}
+
+.navbar-collapse h4 {
+  color: #818a91;
+}
+
+.navbar-collapse .text-muted {
+  color: #818a91;
+}
+
+.about {
+  float: left;
+  max-width: 30rem;
+  margin-right: 3rem;
+}
+
+
+.album {
+  padding-top: 3rem;
+  padding-bottom: 3rem;
+  background-color: #f7f7f7;
+}
+
+.card {
+  float: left;
+  width: 33.333%;
+  padding: .75rem;
+  margin-bottom: 2rem;
+  border: 0;
+}
+.bd-placeholder-img {
+  font-size: 1.125rem;
+  text-anchor: middle;
+
+}
+
+
+.card > img {
+  margin-bottom: .75rem;
+  max-width: 100%;
+}
+
+
+
+.card-text {
+  font-size: 85%;
+}
+
+footer {
+  padding-top: 3rem;
+  padding-bottom: 3rem;
+}
+
+footer p {
+  margin-bottom: .25rem;
+}
+
+
+
+@media (max-width: 630px) {
+
+  #footer-nav {
+      flex-direction: column;
+  }
+
+  #footer-left {
+      justify-content: center;
+  }
+
+  #footer-right {
+      justify-content: center;
+  }
+
+  #my-input-container {
+      width: 95vw;
+  }
+
+
+}
+
+@media (max-height: 522px) {
+
+  body {
+      overflow-x: hidden;
+  }
+  section {
+      margin-bottom: 20px;
+
+  }
+  footer {
+      position: relative;
+  }
+}
+
+@media (max-height: 570px) and (max-width: 630px) {
+
+  body {
+      overflow-x: hidden;
+  }
+  section {
+      margin-bottom: 13px;
+
+  }
+  footer {
+      position: relative;
+  }
+  
+}
+
+  @media (min-width: 768px) {
+    .bd-placeholder-img-lg {
+      font-size: 3.5rem;
+    }
+  }
+
